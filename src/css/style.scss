@@ -1,3 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
-    background-color: yellowgreen;
+    // background-color: #021E73;
+    //   overflow: hidden;
+    /* Color Theme Swatches in Hex */
+    // 1-hex: #0528F2;
+    // 2-hex: #0424D9;
+    // 3-hex: #021E73;
+    // 5-hex: #F2CB05;
+    // 4-hex: #F2E205;
+    
+    // /* Color Theme Swatches in RGBA */
+    // 1-rgba: rgba(4,40,242, 1);
+    // 2-rgba: rgba(4,36,216, 1);
+    // 3-rgba: rgba(2,30,114, 1);
+    // 4-rgba: rgba(242,226,4, 1);
+    // 5-rgba: rgba(242,202,4, 1);
+    
+}
+
+$phi: 1.6180339887498948482;
+
+
+#bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  }
+
+.golden {
+    position: fixed;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.vignette {
+    position: fixed;
+    background-color: rgba(4,36,216, 0.95);
+    height: 100vh;
+    width: 74rem;
+}
+
+.vignette h1, h2 { 
+    margin: 8rem;
+    padding: 4rem;
+}
+.vignette h1 {
+    background-color: #F2CB05;
+    text-align: center;
+}
+.vignette h2 {
+    color: #0528F2;
+    background-color: #F2E205;
+}
+
+.vignette h1 span {
+    margin: 2rem;;
+    padding: 6rem;
 }
